@@ -1,0 +1,21 @@
+.Header {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 200px;
+  align-items: center;
+  margin-left: 40px;
+  /* background-image: url(bg-image.jpg); */
+}
+.logo > img {
+  width: 150px;
+}
+.list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style: none;
+  /* transition: 0.5s; */
+  cursor: pointer;
+}
+.list > li:hover {
+  color: rgb(189, 91, 56);
+}
